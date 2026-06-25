@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FDFBF7"
+    android:padding="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:background="#1A000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#2B2D42"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options &amp; Help"
+        android:textColor="#8D99AE"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:paddingHorizontal="16dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_faq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View FAQs"
+            android:textColor="#2B2D42"
+            android:textSize="15sp"
+            android:paddingVertical="14dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EDF2F4" />
+
+        <TextView
+            android:id="@+id/tv_contact_support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Support via Email"
+            android:textColor="#2B2D42"
+            android:textSize="15sp"
+            android:paddingVertical="14dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EDF2F4" />
+
+        <TextView
+            android:id="@+id/tv_clear_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear Chat History"
+            android:textColor="#EF233C"
+            android:textSize="15sp"
+            android:paddingVertical="14dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About application"
+        android:textColor="#8D99AE"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Application Name: mano"
+            android:textColor="#2B2D42"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version: 1.0.0"
+            android:textColor="#2B2D42"
+            android:textSize="14sp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: An efficient local assistant running via the Groq SDK gateway, engineered to handle messaging queries using pre-trained small language models (SLMs)."
+            android:textColor="#4A4A4A"
+            android:textSize="13sp"
+            android:lineSpacingMultiplier="1.1" />
+    </LinearLayout>
+
+</LinearLayout>

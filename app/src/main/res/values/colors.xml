@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="cream_start">#FFFDF9</color> <!-- Very soft, warm white -->
+    <color name="cream_end">#F5EBE0</color>   <!-- Rich, milky cream -->
+
+    <!-- Text Color (Deep Charcoal for a premium minimalist look) -->
+    <color name="text_dark">#2B2D42</color>
+</resources>
